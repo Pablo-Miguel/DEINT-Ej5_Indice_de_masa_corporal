@@ -20,7 +20,7 @@ namespace DEINT_Ej5_Indice_de_masa_corporal.MVVM.Models
             }
         }
         public int Peso { get => peso; set {
-                altura = value;
+                peso = value;
                 calculateIMC(Altura, value);
             }
         }

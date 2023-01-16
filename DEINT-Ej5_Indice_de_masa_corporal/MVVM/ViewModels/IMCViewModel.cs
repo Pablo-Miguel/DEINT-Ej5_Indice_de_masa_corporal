@@ -1,4 +1,5 @@
 ﻿using DEINT_Ej5_Indice_de_masa_corporal.MVVM.Models;
+using PropertyChanged;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace DEINT_Ej5_Indice_de_masa_corporal.MVVM.ViewModels
 {
+    [AddINotifyPropertyChangedInterface]
     public class IMCViewModel
     {
         public IMCModel Imc { get; set; }
